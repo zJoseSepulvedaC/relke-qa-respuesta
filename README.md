@@ -46,20 +46,36 @@ Tu misión es automatizar con Playwright el flujo de **creación de una Nota de 
 
 ---
 
-## 📤 ¿Cómo entregar tu prueba?
+## 📤 ¿Cómo entregar tu prueba en GitHub?
 
-1. Haz un **fork** de este repositorio
-2. Crea una rama con tu nombre:
+Como el repositorio original de Relke en Bitbucket es público pero de solo lectura, te pedimos que:
+
+1. Clones este repo:
    ```bash
-   git checkout -b qa/tu-nombre-completo
+   git clone https://bitbucket.org/relke/relke-qa-challenge.git
+   cd relke-qa-challenge
    ```
-3. Agrega tus pruebas automatizadas dentro de la carpeta `tests/`
-4. Crea un `README` dentro de tu rama explicando:
+
+2. Crees un nuevo repositorio en **tu cuenta personal de GitHub** (puede ser público o privado).
+
+3. Cambies el origen remoto en tu entorno local:
+   ```bash
+   git remote remove origin
+   git remote add origin https://github.com/tu_usuario/relke-qa-respuesta.git
+   git push -u origin main
+   ```
+4. Agrega tus pruebas automatizadas dentro de la carpeta `tests/`
+
+5. Crea un `README` dentro de tu repositorio explicando:
    - Cómo ejecutar tu test
    - Qué validaciones hiciste
    - Qué desafíos tuviste o decisiones tomaste
-5. Haz commit y push a tu rama
-6. Abre un **Pull Request** a este repositorio (`main`) con tu nombre completo en el título
+
+6. Haz commit y push 
+
+7. Comparte el link del repositorio (y acceso si es privado) por mensaje de Get on board de la postulación
+
+> Si no tienes cuenta en GitHub, puedes crear una gratuita en https://github.com
 
 ---
 
