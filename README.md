@@ -79,20 +79,6 @@ Como el repositorio original de Relke en Bitbucket es público pero de solo lect
 
 ---
 
-## 📤 Alternativa privada
-
-Si prefieres mantenerlo en privado, puedes subirlo a un repositorio propio y enviarnos acceso a:
-
-📬 **desarrollo@relke.cl**
-
----
-
-## ⚙️ Revisión automática
-
-> Este repositorio ejecuta automáticamente tus pruebas usando GitHub Actions cuando haces un Pull Request. Si las pruebas fallan, se sube un reporte para revisión.
-
----
-
 ## 📽️ Opcional: muestra tu forma de trabajar
 
 Si quieres destacarte, puedes grabar un video (máx 10 min) mostrando cómo trabajaste el desafío: tus pasos, pruebas, validaciones o errores encontrados.
