@@ -1,0 +1,12 @@
+{
+  "name": "qa-playwright-relke",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "playwright test",
+    "codegen": "playwright codegen"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.54.1",
+    "typescript": "^5.3.3"
+  }
+}
